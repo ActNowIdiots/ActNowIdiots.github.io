@@ -1,0 +1,48 @@
+body {
+    background-color: #eee;
+}
+
+h1 {
+    text-align: center;
+    background: #252525;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5em;
+    border-radius: 5%;
+    box-shadow: -20px 22px 4px 0 rgba(0,0,0,0.50);
+}
+
+h1 img {
+    width: 70%;
+    padding: 2em 0;
+}
+
+blockquote {
+    color: #252525;
+    font-family: 'Crete Round', serif;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2em;
+    font-size: 170%;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+a {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    color: #FA2B16;
+    font-family: 'Crete Round', serif;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+a em {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 180%;
+    display: block;
+}
