@@ -27,12 +27,14 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #FA2B16;
+    color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #FA2B16;
+    color: white;    
     text-shadow: none;
 }
 
@@ -139,6 +141,14 @@ h1 {
 h1 img {
     width: 70%;
     padding: 2em 0;
+}
+
+h2 {
+    font-family: 'Alfa Slab One', serif;
+    text-transform: uppercase;
+    font-size: 28pt;
+    letter-spacing: 2px;
+
 }
 
 blockquote {
