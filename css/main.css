@@ -179,8 +179,11 @@ a em {
 
 footer {
     position: fixed;
-    bottom: 20px;
+    bottom: 10px;
+    padding-bottom: 10px;
     max-width: 45rem;    
+    background-color: #FFF5EA;
+    width: 80%;
 }
 
 footer a {
