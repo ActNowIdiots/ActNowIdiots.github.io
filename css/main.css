@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #444;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -118,13 +118,20 @@ body {
     background-color: #FFF5EA;
     border-left: 10px solid #FA2B16;
     border-right: 10px solid #FA2B16;  
+    font-family: 'Crete Round', serif;
 }
+
+a {
+    color: #FA2B16;
+    text-decoration: none;
+}
+
 
 article {
     min-height: 80em;
     max-width: 45rem;
     margin: 0 auto;
-    padding: 5em 2em 5em 2em;
+    padding: 0 2em 5em 2em;
 }
 
 h1 {
@@ -139,53 +146,69 @@ h1 img {
 }
 
 h2 {
-    font-family: 'Alfa Slab One', serif;
-    text-transform: uppercase;
     font-size: 28pt;
-    letter-spacing: 2px;
+    margin-top: -1.5em;
+    padding: 0.25em;
+    color: #FA2B16;
+    text-align: center;
+}
 
+h3 {
+    font-size: 28px;
+    text-align: center;
+    border-bottom: 3px solid #FA2B16;
+    color: #FA2B16;
 }
 
 blockquote {
-    color: #252525;
-    font-family: 'Crete Round', serif;
     margin: 0;
     margin-top: 2em;
-    font-size: 26pt;
+    margin-bottom: 2em;
+    font-size: 14pt;
     line-height: 1.5;
+    float: left;
+    width: 50%;
+    font-style: italic;
 }
 
-a {
+blockquote a {
+    color: #666;     
+}
+
+blockquote cite {
     display: block;
-    margin-top: 1em;
     color: #FA2B16;
-    font-family: 'Noto Sans', sans-serif;
-    text-decoration: none;
-    font-size: 12pt;
+    font-style: normal;
 }
 
-a em {
-    font-family: 'Crete Round', serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 22pt;
-    display: block;
+.intro {
+    font-weight: 600;
+    font-family: 'Overpass Mono', fixed;
+}
+
+p {
+    font-size: 14pt;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.marker {
+    text-align: center;
+    color: #888;
 }
 
 footer {
-    position: fixed;
-    bottom: 10px;
-    padding-bottom: 10px;
     max-width: 45rem;    
     background-color: #FFF5EA;
-    width: 80%;
+    margin-top: 2em;
+    padding-top: 2em;
+    border-top: 4px solid #FA2B16;
 }
 
 footer a {
     font-size: 18pt;
-    font-family: 'Crete Round', serif;
     font-weight: bold;
-    
 }
 
 
