@@ -249,6 +249,17 @@ p {
     font-family: 'Fira Sans', sans-serif;
 }
 
+#share table {
+    margin: 0 auto;
+}
+
+#share table th {
+    text-align: right;
+    padding-right: 1em;
+    font-size: 14pt;
+    font-family: 'Fira Sans', sans-serif;
+}
+
 .thanks {
     font-size: 26pt;
     margin-top: 0;
